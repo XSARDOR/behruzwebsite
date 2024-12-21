@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
+</head> 
+<body> 
+    <div class="header"> 
+        <h1 class="h1-header">Mavzu</h1> 
+    </div> 
+    <div class="view">
+        <div class="box-disc"> 
+        <h1>Elektr sigʻimi</h1>
+        <p class="formula">Elektr sig‘imi (yoki faqat sig‘im) 
+            o‘zi elektr zaryadni saqlash qobiliyatini o‘lchaydi. 
+            Asosiy formulasi quyidagicha:</p>
+
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <mi>C</mi>
+                <mo>=</mo>
+            <mfrac>
+                <mi>Q</mi>
+                <mi>V</mi>
+            </mfrac>
+        </math>
+
+    <ul class="about-list">
+        <li><em>C</em> — sig‘im (faradlarda o‘lchanadi, <em>F</em>),</li>
+        <li><em>Q</em> — saqlanayotgan zaryad miqdori (kulonlarda, <em>C</em>),</li>
+        <li><em>V</em> — kondensator qutblari orasidagi elektr kuchlanish (volt, <em>V</em>).</li>
+    </ul>
+
+    </div> 
+    <div class="calculator"> 
+         <h1>Hisoblash</h1>
+         <input type="number" class="resultq" placeholder="Q ni kiriting: ">
+         <input type="number" class="resultv" placeholder="V ni kiriting: ">
+         <button type="submit" onclick="calculate()">HISOBLASH</button>
+         <h2 class="last-result"></h2>
+    </div> 
+    </div>
+    
+</body> 
+</html>
